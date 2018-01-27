@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Tools\DropDown">
+      <UniqueIdentifier>{bd39a4a3-672e-42ef-b92b-a493679bd4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\GameTools">
+      <UniqueIdentifier>{078a4f32-67dd-4180-b5b3-f56b747c5c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Mouse">
+      <UniqueIdentifier>{0efd01d4-3b94-4f24-a557-3663011f18a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Graphics">
+      <UniqueIdentifier>{258df266-5b6f-4f40-80a3-59e2be421abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tools\Audio">
+      <UniqueIdentifier>{dc897d7d-403a-4f86-a867-ef97bb82ee5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\TextBox">
+      <UniqueIdentifier>{6255d4f9-189e-48e0-9970-e0d1f15c6be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\KBoard">
+      <UniqueIdentifier>{19bdbb05-0b38-4236-b992-8161768cc79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DATA">
+      <UniqueIdentifier>{cf3f5bb7-ca4d-4b30-a791-f4070bd5cfbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DropDownMenu.cpp">
+      <Filter>Tools\DropDown</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseIO.cpp">
+      <Filter>Tools\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>Tools\TextBox</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardMouseIO.cpp">
+      <Filter>Tools\KBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Tools\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GenericGameTools.h">
+      <Filter>Tools\GameTools</Filter>
+    </ClInclude>
+    <ClInclude Include="DropDownMenu.h">
+      <Filter>Tools\DropDown</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseIO.h">
+      <Filter>Tools\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseIndexes.h">
+      <Filter>Tools\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenIncludes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>Tools\TextBox</Filter>
+    </ClInclude>
+    <ClInclude Include="SFX.h">
+      <Filter>Tools\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardMouseIO.h">
+      <Filter>Tools\KBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="KBIndexes.h">
+      <Filter>Tools\KBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="UString.h">
+      <Filter>Tools\GameTools</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveData.h">
+      <Filter>Source Files\DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Tools\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGraphics.h">
+      <Filter>Source Files\DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuGraphics.h">
+      <Filter>Source Files\DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="BGMLibrary.h">
+      <Filter>Source Files\DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="SFXLibrary.h">
+      <Filter>Source Files\DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeningItems.h">
+      <Filter>Source Files\DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="BGM.h">
+      <Filter>Tools\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationLibrary.h">
+      <Filter>Source Files\DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Point and Click Game1.rc">
+      <Filter>Graphics</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Graphics</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
